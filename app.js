@@ -28,8 +28,12 @@ const addBlog = () => {
         content: document.getElementById('content').value
     }
     obj.push(newObj);
-    console.log(obj);
-    localStorage.setItem("blogs", JSON.stringify(obj));
+    try {
+        localStorage.setItem("blogs", JSON.stringify(obj));
+        alert('success');
+    } catch (error) {
+        alert(error);
+    }
 }
 
 const showBlogs = obj => {
