@@ -1,0 +1,34 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: black;
+    color: white;
+    text-align: center;
+}
+
+h1,
+input {
+    margin: 25px;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+textarea {
+    margin-top: 10px;
+}
+
+#createNewBlog {
+    margin: 20px;
+}
+
+#bloglist button {
+    color: white;
+    background-color: black;
+    border: none;
+}
